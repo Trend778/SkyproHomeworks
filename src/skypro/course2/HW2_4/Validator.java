@@ -35,7 +35,7 @@ public class Validator {
         }
         Checker checker = new LoopChecker();
         checker.check(login, true);
-        checker.check(password, true);
+        checker.check(password, false);
 
     }
 }
